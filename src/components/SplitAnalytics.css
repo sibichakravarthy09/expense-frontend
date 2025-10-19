@@ -1,0 +1,46 @@
+.split-analytics {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.analytics-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.analytics-color {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  opacity: 0.8;
+}
+
+.analytics-card h4 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.analytics-total {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.analytics-count {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin: 0;
+}
