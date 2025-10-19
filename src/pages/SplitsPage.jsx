@@ -59,7 +59,7 @@ const Splits = () => {
     <div className="splits-page">
       <div className="split-header">
         <h1>👥 Split Expenses</h1>
-        <p>Like GPay Splits</p>
+        
       </div>
 
       {error && <div className="error-msg">{error}</div>}
